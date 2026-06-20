@@ -1,22 +1,20 @@
 # 🌱 EcoWise AI
 ### Carbon Footprint Awareness Platform
 
-![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-5.2.11-646CFF?logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.4-06B6D4?logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-LTS-339933?logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-4.19.2-000000?logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-Authentication-000000?logo=jsonwebtokens&logoColor=white)
-![Gemini AI](https://img.shields.io/badge/Gemini_AI-Powered-4285F4?logo=google-gemini&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?logo=google&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+![Hack2Skill](https://img.shields.io/badge/Hack2Skill-Prompt_Wars-orange)
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![Version](https://img.shields.io/badge/Version-1.0-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)
+![Version](https://img.shields.io/badge/Version-v1.0-blue)
 ![Maintained](https://img.shields.io/badge/Maintained-Yes-success)
-![Hackathon](https://img.shields.io/badge/Hackathon-Hack2Skill_Prompt_Wars-orange)
 
 > Empowering individuals to understand, track, and reduce their carbon footprint through personalized insights, AI recommendations, and sustainability-driven actions.
 
@@ -180,48 +178,48 @@ Reward users for sustainable actions.
 
 ---
 
+# 🏗 System Architecture
+
+```mermaid
+flowchart TB
+
+User[👤 User]
+
+User --> Frontend[⚛️ React + Tailwind Frontend]
+
+Frontend --> Backend[🟢 Node.js + Express API]
+
+Backend --> DB[(🍃 MongoDB Atlas)]
+Backend --> Carbon[🌍 Carbon Calculation Engine]
+Backend --> AI[🤖 Gemini AI Coach]
+Backend --> Game[🏆 Gamification System]
+```
+
+
 # 🔄 Application Flow
 
 ```mermaid
 flowchart TD
 
-A[User Registration/Login]
---> B[Smart Onboarding]
+A[👤 Register/Login]
+--> B[📝 Smart Onboarding]
 
-B --> C[Transportation Data]
-B --> D[Electricity Data]
-B --> E[Food Preferences]
-B --> F[Digital Usage]
+B --> C[🚗 Transportation]
+B --> D[⚡ Electricity]
+B --> E[🍽 Food Preferences]
+B --> F[💻 Digital Usage]
 
-C --> G[Carbon Engine]
+C --> G[🌍 Carbon Engine]
 D --> G
 E --> G
 F --> G
 
-G --> H[Emission Calculation]
-H --> I[Carbon Score]
-H --> J[Environmental Equivalents]
+G --> H[📊 Carbon Footprint]
+H --> I[🌳 Environmental Impact]
+H --> J[🤖 AI Recommendations]
 
-I --> K[AI Sustainability Coach]
+I --> K[📈 Dashboard]
 J --> K
 
-K --> L[Dashboard]
-L --> M[Analytics & Insights]
-L --> N[Gamification System]
-
-flowchart LR
-
-Frontend[React + Tailwind]
-<--> Backend[Node.js + Express]
-
-Backend
-<--> Database[(MongoDB)]
-
-Backend
---> CarbonEngine[Carbon Calculation Engine]
-
-Backend
---> AI[Gemini AI Services]
-
-Backend
---> Gamification[Rewards System]
+K --> L[🏆 Gamification]
+```
