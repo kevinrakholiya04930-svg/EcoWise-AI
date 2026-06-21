@@ -64,6 +64,12 @@ The platform calculates carbon emissions based on user lifestyle patterns and pr
 - Role-based route protection
 - Secure environment configuration
 
+### Testing & Quality
+- Jest
+- Validation Middleware
+- Error Handling Middleware
+- Accessibility Practices
+
 ---
 
 ## 👋 Smart Onboarding
@@ -159,6 +165,85 @@ EcoWise AI is designed with inclusivity and usability in mind.
 - Responsive design across desktop and mobile devices
 
 ---
+# 📊 Analytics & Forecasting
+
+EcoWise AI provides actionable sustainability analytics.
+
+### Features
+- Category-wise emission analysis
+- Historical carbon tracking
+- Weekly progress monitoring
+- Carbon score generation
+- Tree-equivalent calculations
+- Trend visualization
+- Linear regression-based future projections
+- Goal-oriented sustainability forecasting
+---
+
+  
+# ⚡ Performance Optimizations
+
+EcoWise AI is optimized for performance and scalability.
+
+### Backend Optimizations
+- Parallel database operations using Promise.all()
+- Lean MongoDB queries using `.lean()`
+- Database indexing for frequently queried fields
+- Connection reuse and lazy database initialization
+- Reduced unnecessary document hydration
+- Optimized query selection using `.select()`
+- Reusable helper utilities
+- Efficient projection algorithms
+
+### Frontend Optimizations
+- Vite-powered lightning-fast builds
+- Context-based state management
+- Reduced unnecessary component re-renders
+- API abstraction layer
+- Optimized loading states
+- Responsive image and component rendering
+- Efficient route handling
+---
+ # 🚀 Production Readiness
+
+EcoWise AI is designed with production readiness in mind.
+
+### Production Features
+- Environment-based configuration
+- Secure secrets management
+- Optimized build pipeline
+- Error recovery mechanisms
+- Scalable MongoDB Atlas integration
+- Cloud deployment compatibility
+- Health monitoring endpoint
+- Maintainable project architecture
+
+---
+# 📈 Non-Functional Requirements
+
+### Scalability
+- Modular architecture
+- Reusable services
+- Database indexing
+- Optimized queries
+
+### Maintainability
+- Separation of concerns
+- Feature-based structure
+- Reusable utilities
+- Consistent naming conventions
+
+### Reliability
+- Centralized error handling
+- Database connection management
+- Input validation
+- Defensive programming practices
+
+### Performance
+- Lean database queries
+- Parallel operations
+- Efficient rendering
+- Optimized state updates
 
 # 🔮 Future Scope
 
@@ -209,23 +294,24 @@ Provide AI-driven recommendations.
 ### Step 7
 Reward users for sustainable actions.
 
-# 🧪 Quality Assurance
+# 🧪 Engineering Quality
 
-### Code Quality
-- Modular and reusable component architecture
-- Context-based state management
-- Centralized utility functions
-- Error handling and validation strategies
-- Responsive and accessible user interface patterns
+### Backend Engineering
+- Service-oriented architecture
+- Modular feature organization
+- Reusable utility functions
+- Centralized validation logic
+- Consistent error handling
+- Database abstraction patterns
+- Maintainable code structure
 
-### Performance Optimizations
-- Vite-powered fast builds
-- Lazy rendering where appropriate
-- Lightweight component composition
-- Optimized React state updates
-
----
-
+### Frontend Engineering
+- Component-driven architecture
+- Reusable hooks and contexts
+- API service abstraction
+- Clean state management
+- Scalable routing structure
+- Separation of concerns
 ---
 
 # 🏗 System Architecture
