@@ -9,6 +9,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?logo=google&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 ![Hack2Skill](https://img.shields.io/badge/Hack2Skill-Prompt_Wars-orange)
 
@@ -60,6 +61,8 @@ The platform calculates carbon emissions based on user lifestyle patterns and pr
 - Secure Password Hashing
 - Protected Routes
 - Session Persistence
+- Role-based route protection
+- Secure environment configuration
 
 ---
 
@@ -80,7 +83,9 @@ Collects user information including:
 - Auto-save progress
 - Progress restoration
 - Prevent data loss
-- Validation support
+- Real-time form validation
+- Accessible form controls and error handling
+- Keyboard-friendly navigation
 
 ---
 
@@ -139,6 +144,34 @@ Users earn:
 
 ---
 
+
+## ♿ Accessibility & User Experience
+
+EcoWise AI is designed with inclusivity and usability in mind.
+
+### Accessibility Features
+- Semantic HTML landmarks (`header`, `main`, `nav`)
+- Accessible form labels and validation messages
+- ARIA attributes for interactive components
+- Screen-reader friendly loading states
+- Keyboard-accessible navigation and controls
+- Focus indicators for buttons and form elements
+- Responsive design across desktop and mobile devices
+
+---
+
+# 🔮 Future Scope
+
+- Real-time carbon tracking integrations
+- Household and family sustainability groups
+- Community challenges and leaderboards
+- Regional carbon benchmarking improvements
+- Advanced AI sustainability planning
+- Renewable energy recommendation engine
+- Carbon offset marketplace integrations
+
+---
+
 # 🧠 Approach & Logic
 
 EcoWise AI follows a user-centric approach:
@@ -176,6 +209,23 @@ Provide AI-driven recommendations.
 ### Step 7
 Reward users for sustainable actions.
 
+# 🧪 Quality Assurance
+
+### Code Quality
+- Modular and reusable component architecture
+- Context-based state management
+- Centralized utility functions
+- Error handling and validation strategies
+- Responsive and accessible user interface patterns
+
+### Performance Optimizations
+- Vite-powered fast builds
+- Lazy rendering where appropriate
+- Lightweight component composition
+- Optimized React state updates
+
+---
+
 ---
 
 # 🏗 System Architecture
@@ -194,6 +244,7 @@ Backend --> Carbon[🌍 Carbon Calculation Engine]
 Backend --> AI[🤖 Gemini AI Coach]
 Backend --> Game[🏆 Gamification System]
 ```
+
 
 
 # 🔄 Application Flow
